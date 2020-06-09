@@ -2,7 +2,7 @@
 
 This has been tested using Terraform v0.12.x we advise you use this version as we will test your code with the same.
 
-Please respond with a zip including your git files so the history of commits is included. Document your solution and notes on how to run it in a `NOTES.md` markdown file and include it in the root directory with this `README.md`.
+Upload your solution to a forked Git repository. Document your solution and notes on how to run it in a `NOTES.md` markdown file and include it in the root directory with this `README.md`.
 
 Here we have some Terraform which builds a simple VPC. For now, we have just one instance running the web server Nginx in its default configuration, serving up the default welcome page.
 
@@ -12,8 +12,7 @@ To run terraform use the following command:
 terraform apply -var-file=dublin.tfvars
 ```
 
-Complete all exercises, making sure to use git appropriately. Feel free to modify and refactor the existing code in order to best achieve your solution. Please use AWS and Terraform best
-practices in order to complete your solution - which can be easily readable.
+Complete all exercises, making sure to use git appropriately. Feel free to modify and refactor the existing code in order to best achieve your solution. Please use AWS and Terraform best practices in order to complete your solution - which can be easily readable.
 
 Exercises:
 
