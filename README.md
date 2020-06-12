@@ -14,6 +14,15 @@ terraform apply -var-file=dublin.tfvars
 
 Complete all exercises, making sure to use git appropriately. Feel free to modify and refactor the existing code in order to best achieve your solution. Please use AWS and Terraform best practices in order to complete your solution - which can be easily readable.
 
+Please can you make sure that you tag your AWS resources with the following key/values:
+- Owner : <your_name>
+- Project : Tech Test
+
+VPC CIDR blocks to choose from:
+- 10.10.10.0/24 (default in dublin.tfvars)
+- 10.10.20.0/24
+- 10.10.30.0/24
+
 Exercises:
 
 1. The EC2 instance running Nginx went down over the weekend and we had an outage, it's been decided that we need a solution that is more resilient. Please implement a solution that demonstrates best practice resilience within a single region.
